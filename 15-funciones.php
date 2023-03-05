@@ -8,7 +8,9 @@ function sumar(int $num1 = 0, int $num2 = 0){
 
 sumar(10);
 echo "</br>";
-sumar(10,15);
+sumar(10,50);
+echo "</br>";
+sumar(num2: 10, num1: 15);//parametro nombrado
 echo "</br>";
 //Error sumar(10,'hola');
 
